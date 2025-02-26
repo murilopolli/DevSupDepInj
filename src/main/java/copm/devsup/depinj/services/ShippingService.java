@@ -7,7 +7,7 @@ import copm.devsup.depinj.entites.Order;
 @Service
 public class ShippingService {
 
-	public double shipping(Order order) {
+	public double shipment(Order order) {
 		double shipping = 0.0;
 		if(order.getBasic() < 100.00)
 			shipping = 20.00;
